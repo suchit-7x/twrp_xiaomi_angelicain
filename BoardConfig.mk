@@ -135,6 +135,7 @@ TARGET_USES_MKE2FS := true
 TW_INCLUDE_PYTHON := true
 TW_FRAMERATE := 60
 TW_INCLUDE_EROFS := true
+TW_DEVICE_VERSION := erofs
 
 # TWRP (status bar items)
 ifneq ($(OF_HIDE_NOTCH),1)
