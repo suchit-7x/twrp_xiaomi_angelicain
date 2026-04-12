@@ -17,7 +17,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 ---------------
 **Clone this repo**
 ```bash
-git clone https://github.com/suchit-7x/twrp_xiaomi_angelicain.git device/xiaomi/angelicain
+git clone https://github.com/suchit-7x/twrp_xiaomi_angelicain.git -b twrp-12.1 device/xiaomi/angelicain
 ```
 
 3.Build
