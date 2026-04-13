@@ -8,4 +8,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_angelicain.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_angelicain-eng
+    twrp_angelicain-bp2a-eng
