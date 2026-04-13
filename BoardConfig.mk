@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/blossom
+DEVICE_PATH := device/xiaomi/angelicain
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -23,11 +23,11 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := blossom,dandelion,angelica,angelican,cattail,angelicain
-HA_TARGET_DEVICES := dandelion,angelica,angelican,cattail,angelicain,blossom
+TARGET_OTA_ASSERT_DEVICE := angelicain
+HA_TARGET_DEVICES := angelicain
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := blossom
+TARGET_BOOTLOADER_BOARD_NAME := angelicain
 TARGET_NO_BOOTLOADER := true
 
 # Build
@@ -135,14 +135,16 @@ TARGET_USES_MKE2FS := true
 TW_INCLUDE_PYTHON := true
 TW_FRAMERATE := 60
 TW_INCLUDE_EROFS := true
-TW_DEVICE_VERSION := erofs
+TW_TIME_ZONE := Asia/Kolkata
+TW_DEVICE_VERSION := by_suchit-7x
+TW_MAINTAINER := suchit-7x
 
 # TWRP (status bar items)
 ifneq ($(OF_HIDE_NOTCH),1)
-    TW_STATUS_ICONS_ALIGN := center
-    #TW_CUSTOM_CPU_POS := "300"
-    TW_CUSTOM_CLOCK_POS := "70"
-    TW_CUSTOM_BATTERY_POS := "900"
+    TW_STATUS_ICONS_ALIGN := left
+    TW_CUSTOM_CPU_POS := "600"
+    TW_CUSTOM_CLOCK_POS := "80"
+    TW_CUSTOM_BATTERY_POS := "800"
 endif
 
 # TWRP (Crypto)

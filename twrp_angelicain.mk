@@ -11,12 +11,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Inherit from blossom device
-$(call inherit-product, device/xiaomi/blossom/device.mk)
+# Inherit from angelicain device
+$(call inherit-product, device/xiaomi/angelicain/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := blossom
-PRODUCT_NAME := twrp_blossom
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi Blossom
-PRODUCT_MANUFACTURER := xiaomi
+PRODUCT_DEVICE := angelicain
+PRODUCT_NAME := twrp_angelicain
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := POCO C31
+PRODUCT_MANUFACTURER := Xiaomi
